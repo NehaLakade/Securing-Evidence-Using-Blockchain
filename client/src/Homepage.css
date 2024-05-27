@@ -1,0 +1,70 @@
+/* Homepage.css */
+.homepage {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcome {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.highlight {
+  color: #007bff; /* Or any other accent color */
+}
+
+.system-description {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.slideshow {
+  margin-top: 50px;
+}
+
+/* Styling for Carousel */
+.carousel-root {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.carousel .slide {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel .legend {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}

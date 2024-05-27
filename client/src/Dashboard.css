@@ -1,0 +1,66 @@
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  .dashboard-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styles */
+  .dashboard-form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .dashboard-form label {
+    font-weight: bold;
+  }
+  
+  .dashboard-form input[type="text"],
+  .dashboard-form select,
+  .dashboard-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .dashboard-form textarea {
+    resize: vertical;
+  }
+  
+  .dashboard-form input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  .dashboard-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .dashboard-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message styles */
+  .dashboard-message {
+    margin-top: 20px;
+    color: #28a745;
+  }
+  

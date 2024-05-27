@@ -1,0 +1,45 @@
+/* Navbar CSS */
+/* Navbar.css */
+
+.navbar {
+  background-color: #343a40; /* Dark background color */
+  padding: 1rem 2rem; /* Add padding to the navbar */
+  border-radius: 0; /* Remove border-radius */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* White text color */
+  font-size: 1.2rem; /* Font size */
+  margin-left: 1.5rem; /* Add margin between links */
+  transition: color 0.3s; /* Add smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107; /* Change text color on hover */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White color for toggler icon */
+}
+
+/* Centering the toggler icon vertically */
+.navbar-toggler {
+  padding: 0.25rem 0.5rem;
+}
+
+/* Media query for small screens */
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-link {
+    margin-left: 0; /* Remove left margin on small screens */
+    margin-top: 1rem; /* Add top margin */
+  }
+}
